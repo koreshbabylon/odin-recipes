@@ -1,3 +1,7 @@
+body {
+    background-color: cornsilk;
+}
+
 img {
     height: 350px;
     display: block;
@@ -6,7 +10,7 @@ img {
     width: auto;
 }
 
-h1, p, ul, ol, h2, h3 {
+h1, p, h2, h3 {
     text-align: center;
 }
 
@@ -15,4 +19,30 @@ h1 {
     color: red;
     font-size: 34px;
     font-family: Georgia;
+}
+
+h2 {
+    font-family: Garamond;
+    font-size: 36px;
+}
+
+ul li {
+    line-height: 25px;
+}
+
+ol li {
+    line-height: 35px;
+}
+
+li {
+    font-family: Verdana;
+}
+
+.main-section {
+    border: 1px red solid;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 10px;
 }
