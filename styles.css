@@ -5,8 +5,24 @@
     font-size: 64px;
 }
 
+.recipe-links {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000a1c;
+}
+
 ul {
     font-size: 30px;
-    text-align: center;
-    font-family: "Brush Script MT"
+    display: inline-block;
+    text-align: left;
+    font-family: "Brush Script MT";
+    border: 0px black solid;
+    padding: 25px;
+}
+
+li {
+    line-height: 50px;
 }
